@@ -4,7 +4,6 @@ google-generativeai
 transformers
 torch
 spacy
-en_core_web_sm #English model: python -m spacy download en_core_web_sm
 opencv-python
 Pillow
 steganography

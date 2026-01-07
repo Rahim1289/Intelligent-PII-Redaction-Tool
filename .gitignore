@@ -1,20 +1,32 @@
+# Environment variables
 .env
 .env.*
 !.env.example
+
+# Virtual environment
 venv/
-/venv/
-*.pyc
-pycache/
 .Python
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Django
 db.sqlite3
-/db.sqlite3*
+db.sqlite3*
+*.log
+local_settings.py
+
+# Static & media files
 /static/
 /staticfiles/
 /media/
-*.log
-local_settings.py
+
+# Editor & OS
+.vscode/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-.vscode/
-_redacted
+
+# Project-generated files
+_redacted/
